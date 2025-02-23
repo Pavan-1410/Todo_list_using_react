@@ -75,7 +75,7 @@ function App() {
       <div className="conatainer border-2 border-black   w-[90%]  overflow-hidden md:w-2/3 mx-auto my-8 p-5 rounded-xl bg-violet-200 h-[75vh]">
         <div className="addtodo">
         <h2 className='text-ld font-bold text-2xl m-2 '>Add Todo</h2>
-        <input onChange={handelChange} value={todo} className=' w-[65%] md:w-[50%]' type="text" />
+        <input onChange={handelChange} value={todo} className=' w-[45%] md:w-[50%]' type="text" />
         <button onClick={handelAdd} disabled={todo.length<1 } className='bg-violet-800 text-sm font-bold p-3 py-0.5 text-white rounded-md mx-6 px-5 disabled:bg-violet-950  hover:bg-violet-950'>Add</button>
         </div>
         <input onChange={togglefinish} type="checkbox" checked={showfinished} /> Show Finished
@@ -100,3 +100,13 @@ function App() {
 }
 
 export default App
+
+// git init
+// git add .
+// git commit -m "first commit"
+// git log
+// git add .
+// git commit -m "second commit"
+// git remote add origin https://github.com/Pavan-1410/Todo_list_using_react
+// git push
+// git push --set-upstream origin main
