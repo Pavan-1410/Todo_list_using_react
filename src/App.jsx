@@ -8,6 +8,8 @@ import { FaEdit } from "react-icons/fa";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 
 function App() {
+
+  // hii
   const [todo, settodo] = useState("")
   const [todos, settodos] = useState([])
   const [showfinished, setshowfinished] = useState(true)
